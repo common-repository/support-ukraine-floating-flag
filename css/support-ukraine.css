@@ -1,0 +1,33 @@
+.ukraine
+{text-align:center;
+position:fixed;
+width:190px;
+left:-178px;
+top:50%;
+transition:1.2s;
+z-index:9999999999999;}
+.ukraine-flag
+{background-image: linear-gradient(#0057b7 50%, #ffd700 50%);
+padding:10px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 15px 0px;
+cursor:default;}
+.ukraine:hover
+{left:0;}
+.ukraine a
+{font-size:10px;
+position:absolute;
+left:0;
+color:white;
+background:rgba(0,0,0,0.65);
+line-height:1;
+padding:3px 6px}
+.ukraine a:after
+{content:" ↗";}
+.ukraine-flag > div
+{font-weight:bold;
+font-size:20px;}
+.slava-ukraini
+{color:#ffd700;
+padding-bottom:20px;}
+.herojam-slava
+{color:#0057b7;}
